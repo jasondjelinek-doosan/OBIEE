@@ -3,190 +3,158 @@
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000001-01f4-0000-212f-7ff100000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Attribute 1"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Brand key"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000001-01f4-0000-212f-7ff100000000-m763e8f27-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f27-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000001-01f4-0000-212f-7ff100000000-m763e8f2a-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2a-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000002-01f4-0000-01d3-a8f200000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."ATTRIBUTE_1"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."BRAND_KEY"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000002-01f4-0000-01d3-a8f200000000-m75a07a01-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a01-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000002-01f4-0000-01d3-a8f200000000-m75a07a04-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a04-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000003-01f4-0000-655d-4c2c00000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Attribute 2"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Lob"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000003-01f4-0000-655d-4c2c00000000-m763e8f28-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f28-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000003-01f4-0000-655d-4c2c00000000-m763e8f2b-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2b-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000004-01f4-0000-ebb6-891e00000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."ATTRIBUTE_2"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."LOB"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000004-01f4-0000-ebb6-891e00000000-m75a07a02-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a02-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000004-01f4-0000-ebb6-891e00000000-m75a07a05-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a05-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000005-01f4-0000-a23e-4cc600000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Brand"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Lob key"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000005-01f4-0000-a23e-4cc600000000-m763e8f29-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f29-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000005-01f4-0000-a23e-4cc600000000-m763e8f2c-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2c-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000006-01f4-0000-c6e0-7bef00000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."BRAND"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."LOB_KEY"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000006-01f4-0000-c6e0-7bef00000000-m75a07a03-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a03-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000006-01f4-0000-c6e0-7bef00000000-m75a07a06-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a06-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000007-01f4-0000-ec49-8bd500000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Brand key"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Product"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000007-01f4-0000-ec49-8bd500000000-m763e8f2a-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2a-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000007-01f4-0000-ec49-8bd500000000-m763e8f2d-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2d-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000008-01f4-0000-cc11-2c7600000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."BRAND_KEY"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."PROD_DSC"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000008-01f4-0000-cc11-2c7600000000-m75a07a04-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a04-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000008-01f4-0000-cc11-2c7600000000-m75a07a07-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a07-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000009-01f4-0000-2ebc-363300000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Lob"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Prod key"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000009-01f4-0000-2ebc-363300000000-m763e8f2b-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2b-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000009-01f4-0000-2ebc-363300000000-m763e8f2e-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2e-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m0000000a-01f4-0000-34b9-112700000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."LOB"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."PROD_KEY"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000a-01f4-0000-34b9-112700000000-m75a07a05-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a05-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m0000000a-01f4-0000-34b9-112700000000-m75a07a08-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a08-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m0000000b-01f4-0000-6108-548a00000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Lob key"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Sequence"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000b-01f4-0000-6108-548a00000000-m763e8f2c-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2c-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m0000000b-01f4-0000-6108-548a00000000-m763e8f2f-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2f-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m0000000c-01f4-0000-91d8-1a4d00000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."LOB_KEY"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."SEQUENCE"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000c-01f4-0000-91d8-1a4d00000000-m75a07a06-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a06-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m0000000c-01f4-0000-91d8-1a4d00000000-m75a07a09-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a09-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m0000000d-01f4-0000-025d-d73100000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Product"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Type"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000d-01f4-0000-025d-d73100000000-m763e8f2d-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2d-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m0000000d-01f4-0000-025d-d73100000000-m763e8f30-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f30-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m0000000e-01f4-0000-87ea-5a8100000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."PROD_DSC"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."TYPE"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000e-01f4-0000-87ea-5a8100000000-m75a07a07-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a07-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m0000000e-01f4-0000-87ea-5a8100000000-m75a07a0a-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a0a-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m0000000f-01f4-0000-15e6-a7ea00000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Prod key"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Type key"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m0000000f-01f4-0000-15e6-a7ea00000000-m763e8f2e-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2e-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m0000000f-01f4-0000-15e6-a7ea00000000-m763e8f31-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f31-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000010-01f4-0000-c057-3a0400000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."PROD_KEY"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."TYPE_KEY"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000010-01f4-0000-c057-3a0400000000-m75a07a08-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a08-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000010-01f4-0000-c057-3a0400000000-m75a07a0b-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a0b-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <ColumnMapping>
 <LogicalColumnExpr mdsid="m00000011-01f4-0000-a12d-3cba00000000" name="LogicalColumnExpr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Sequence"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Brand key#1"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000011-01f4-0000-a12d-3cba00000000-m763e8f2f-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2f-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000011-01f4-0000-a12d-3cba00000000-m40000002-f617-14f8-806e-0a33536e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m40000002-f617-14f8-806e-0a33536e0000"/>
 </ObjectRefList>
 </LogicalColumnExpr>
 <Expr mdsid="m00000012-01f4-0000-14cf-240500000000" name="Expr">
 <ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."SEQUENCE"]]></ExprTextDesc>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."BRAND_KEY"]]></ExprTextDesc>
 <ObjectRefList>
-<RefObject refId="m00000012-01f4-0000-14cf-240500000000-m75a07a09-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a09-0cc2-1000-806e-0a00020f0000"/>
-</ObjectRefList>
-</Expr>
-</ColumnMapping>
-<ColumnMapping>
-<LogicalColumnExpr mdsid="m00000013-01f4-0000-de02-85aa00000000" name="LogicalColumnExpr">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Type"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000013-01f4-0000-de02-85aa00000000-m763e8f30-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f30-0cc2-1000-806e-0a00020f0000"/>
-</ObjectRefList>
-</LogicalColumnExpr>
-<Expr mdsid="m00000014-01f4-0000-924e-69e600000000" name="Expr">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."TYPE"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000014-01f4-0000-924e-69e600000000-m75a07a0a-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a0a-0cc2-1000-806e-0a00020f0000"/>
-</ObjectRefList>
-</Expr>
-</ColumnMapping>
-<ColumnMapping>
-<LogicalColumnExpr mdsid="m00000015-01f4-0000-daca-198200000000" name="LogicalColumnExpr">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["Sample Sales"."D2 Product"."Type key"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000015-01f4-0000-daca-198200000000-m763e8f31-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f31-0cc2-1000-806e-0a00020f0000"/>
-</ObjectRefList>
-</LogicalColumnExpr>
-<Expr mdsid="m00000016-01f4-0000-1167-da4500000000" name="Expr">
-<ExprText><![CDATA["%1"]]></ExprText>
-<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."D2 Product"."TYPE_KEY"]]></ExprTextDesc>
-<ObjectRefList>
-<RefObject refId="m00000016-01f4-0000-1167-da4500000000-m75a07a0b-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a0b-0cc2-1000-806e-0a00020f0000"/>
+<RefObject refId="m00000012-01f4-0000-14cf-240500000000-m75a07a04-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a04-0cc2-1000-806e-0a00020f0000"/>
 </ObjectRefList>
 </Expr>
 </ColumnMapping>
 <Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a00-0cc2-1000-806e-0a00020f0000">
 </Link>
-<WhereClause mdsid="m00000017-01f4-0000-bd5b-e65100000000" name="WhereClause">
+<WhereClause mdsid="m00000013-01f4-0000-b98f-767800000000" name="WhereClause">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </WhereClause>
-<GroupBy mdsid="m00000018-01f4-0000-225f-254d00000000" name="GroupBy">
+<GroupBy mdsid="m00000014-01f4-0000-43cf-011200000000" name="GroupBy">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </GroupBy>
-<FragmentContent mdsid="m00000019-01f4-0000-1f45-ced100000000" name="FragmentContent">
+<FragmentContent mdsid="m00000015-01f4-0000-c0e3-068900000000" name="FragmentContent">
 <ExprText></ExprText>
 <ExprTextDesc></ExprTextDesc>
 </FragmentContent>
