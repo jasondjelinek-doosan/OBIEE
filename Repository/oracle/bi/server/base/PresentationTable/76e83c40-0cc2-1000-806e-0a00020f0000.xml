@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m76e83c40-0cc2-1000-806e-0a00020f0000" name="Product" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/76db9210-0cc2-1000-806e-0a00020f0000.xml#m76db9210-0cc2-1000-806e-0a00020f0000">
+<PresentationColumn mdsid="m7705af51-0cc2-1000-806e-0a00020f0000" name="Brand" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f29-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7705af53-0cc2-1000-806e-0a00020f0000" name="Line of Business" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2b-0cc2-1000-806e-0a00020f0000">
+<Alias name="Lob"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m7705af57-0cc2-1000-806e-0a00020f0000" name="Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f30-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m7705af55-0cc2-1000-806e-0a00020f0000" name="Product" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8f24-0cc2-1000-806e-0a00020f0000.xml#m763e8f2d-0cc2-1000-806e-0a00020f0000">
+<Alias name="Prod dsc"/>
+</PresentationColumn>
+</PresentationTable>

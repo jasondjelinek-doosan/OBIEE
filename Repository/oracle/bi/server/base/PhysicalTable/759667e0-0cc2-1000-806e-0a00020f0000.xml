@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m759667e0-0cc2-1000-806e-0a00020f0000" name="D4 Address" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="1865.0" lastUpdated="2014-06-16 08:41:14" maxConn="0" containerRef="/oracle/bi/server/base/Schema/7553e0a2-0cc2-1000-806e-0a00020f0000.xml#m7553e0a2-0cc2-1000-806e-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a3-0cc2-1000-806e-0a00020f0000">
+<PhysicalColumn mdsid="m759667e1-0cc2-1000-806e-0a00020f0000" name="ADDRESS1" dataType="VARCHAR" precision="40" nullable="true" rowCount="413.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a4-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e2-0cc2-1000-806e-0a00020f0000" name="ADDRESS2" dataType="VARCHAR" precision="40" nullable="true" rowCount="503.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a5-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e3-0cc2-1000-806e-0a00020f0000" name="ADDRESS_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="1865.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a6-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e4-0cc2-1000-806e-0a00020f0000" name="AREA" dataType="VARCHAR" precision="20" nullable="true" rowCount="13.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a7-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e5-0cc2-1000-806e-0a00020f0000" name="CITY" dataType="VARCHAR" precision="40" nullable="true" rowCount="264.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a8-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e6-0cc2-1000-806e-0a00020f0000" name="COUNTRY_NAME" dataType="VARCHAR" precision="100" nullable="true" rowCount="120.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0a9-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e7-0cc2-1000-806e-0a00020f0000" name="CTRY_CD3_STATE_ABBRV" dataType="VARCHAR" precision="10" nullable="true" rowCount="164.0" lastUpdated="2014-06-16 08:41:14" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0aa-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e8-0cc2-1000-806e-0a00020f0000" name="CTRY_CD3_STATE_NAME" dataType="VARCHAR" precision="300" nullable="true" rowCount="164.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0ab-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667e9-0cc2-1000-806e-0a00020f0000" name="CTRY_CD3_STATE_NAME_CITY" dataType="VARCHAR" precision="300" nullable="true" rowCount="372.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0ac-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667ea-0cc2-1000-806e-0a00020f0000" name="ESTAB_NAME" dataType="VARCHAR" precision="240" nullable="true" rowCount="712.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0ad-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667eb-0cc2-1000-806e-0a00020f0000" name="ISO_COUNTRY_CODE3" dataType="VARCHAR" precision="3" nullable="true" rowCount="120.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0ae-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667ec-0cc2-1000-806e-0a00020f0000" name="LATITUDE" dataType="DOUBLE" precision="22" nullable="true" rowCount="560.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0af-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667ed-0cc2-1000-806e-0a00020f0000" name="LONGITUDE" dataType="DOUBLE" precision="22" nullable="true" rowCount="564.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0b0-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667ee-0cc2-1000-806e-0a00020f0000" name="POSTAL_CODE" dataType="VARCHAR" precision="12" nullable="true" rowCount="1271.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0b1-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667ef-0cc2-1000-806e-0a00020f0000" name="REGION" dataType="VARCHAR" precision="20" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0b2-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667f0-0cc2-1000-806e-0a00020f0000" name="STATE_PROVINCE" dataType="VARCHAR" precision="40" nullable="true" rowCount="45.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0b3-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m759667f1-0cc2-1000-806e-0a00020f0000" name="STATE_PROVINCE_ABBRV" dataType="VARCHAR" precision="4" nullable="true" rowCount="28.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7553e0a3-0cc2-1000-806e-0a00020f0000.xml#m7553e0b4-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m760de1d0-0cc2-1000-806e-0a00020f0000" name="D4 Address_Key">
+<RefColumns>
+<RefColumn refId="m760de1d0-0cc2-1000-806e-0a00020f0000-m759667e3-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/759667e0-0cc2-1000-806e-0a00020f0000.xml#m759667e3-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

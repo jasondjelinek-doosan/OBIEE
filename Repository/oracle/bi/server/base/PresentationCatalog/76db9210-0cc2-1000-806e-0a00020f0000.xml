@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m76db9210-0cc2-1000-806e-0a00020f0000" name="Sample Sales" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/7632f600-0cc2-1000-806e-0a00020f0000.xml#m7632f600-0cc2-1000-806e-0a00020f0000">
+<RefTables>
+<RefPresentationTable refId="m76db9210-0cc2-1000-806e-0a00020f0000-m76e13760-0cc2-1000-806e-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/76e13760-0cc2-1000-806e-0a00020f0000.xml#m76e13760-0cc2-1000-806e-0a00020f0000"/>
+<RefPresentationTable refId="m76db9210-0cc2-1000-806e-0a00020f0000-m76e83c40-0cc2-1000-806e-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/76e83c40-0cc2-1000-806e-0a00020f0000.xml#m76e83c40-0cc2-1000-806e-0a00020f0000"/>
+<RefPresentationTable refId="m76db9210-0cc2-1000-806e-0a00020f0000-m76e9c2e0-0cc2-1000-806e-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/76e9c2e0-0cc2-1000-806e-0a00020f0000.xml#m76e9c2e0-0cc2-1000-806e-0a00020f0000"/>
+<RefPresentationTable refId="m76db9210-0cc2-1000-806e-0a00020f0000-m76ec33e0-0cc2-1000-806e-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/76ec33e0-0cc2-1000-806e-0a00020f0000.xml#m76ec33e0-0cc2-1000-806e-0a00020f0000"/>
+</RefTables>
+</PresentationCatalog>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m763f5212-0cc2-1000-806e-0a00020f0000" name="F1 Revenue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5210-0cc2-1000-806e-0a00020f0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-c8a0-a4ba00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Sample Sales"."F1 Revenue"."Revenue"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-c8a0-a4ba00000000-m763f5225-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5225-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-f830-7c2b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."F1 Revenue"."REVENUE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-f830-7c2b00000000-m75a4bfd3-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfd3-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-c244-f7a900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Sample Sales"."F1 Revenue"."Units"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-c244-f7a900000000-m763f5229-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5229-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-0214-8af600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."F1 Revenue"."UNITS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-0214-8af600000000-m75a4bfd7-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfd7-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfc0-0cc2-1000-806e-0a00020f0000">
+</Link>
+<WhereClause mdsid="m00000005-01f4-0000-551d-820d00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000006-01f4-0000-244f-6ce600000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000007-01f4-0000-675a-1c3200000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

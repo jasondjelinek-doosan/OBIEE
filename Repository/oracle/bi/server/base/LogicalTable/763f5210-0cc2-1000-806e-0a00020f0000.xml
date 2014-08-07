@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m763f5210-0cc2-1000-806e-0a00020f0000" name="F1 Revenue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/7632f600-0cc2-1000-806e-0a00020f0000.xml#m7632f600-0cc2-1000-806e-0a00020f0000">
+<LogicalColumn mdsid="m763f5225-0cc2-1000-806e-0a00020f0000" name="Revenue" isWriteable="false">
+<MeasureDefn mdsid="m76c83120-0cc2-1000-806e-0a00020f0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m76c83121-0cc2-1000-806e-0a00020f0000" name="AggRule_2050:5511402935622" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-662b-bd9c00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Sample Sales"."F1 Revenue"."Revenue")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-662b-bd9c00000000-m763f5225-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5225-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m763f523e-0cc2-1000-806e-0a00020f0000" name="AD_3900:5271402934705">
+<Expr mdsid="m00000002-01f4-0000-59ec-a2f600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."F1 Revenue"."REVENUE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-59ec-a2f600000000-m75a4bfd3-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfd3-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m763f5229-0cc2-1000-806e-0a00020f0000" name="Units" isWriteable="false">
+<MeasureDefn mdsid="m76cf3600-0cc2-1000-806e-0a00020f0000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m76cf3601-0cc2-1000-806e-0a00020f0000" name="AggRule_2050:5531402935649" isDefault="true">
+<Expr mdsid="m00000003-01f4-0000-4f27-a9a400000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("Sample Sales"."F1 Revenue"."Units")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4f27-a9a400000000-m763f5229-0cc2-1000-806e-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5229-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="m763f5242-0cc2-1000-806e-0a00020f0000" name="AD_3900:5311402934705">
+<Expr mdsid="m00000004-01f4-0000-69a5-9e8e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["ORCL".""."BISAMPLE"."F1 Revenue"."UNITS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-69a5-9e8e00000000-m75a4bfd7-0cc2-1000-806e-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfd7-0cc2-1000-806e-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m763f5210-0cc2-1000-806e-0a00020f0000-m763f5212-0cc2-1000-806e-0a00020f0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/763f5212-0cc2-1000-806e-0a00020f0000.xml#m763f5212-0cc2-1000-806e-0a00020f0000"/>
+</RefTableSources>
+</LogicalTable>

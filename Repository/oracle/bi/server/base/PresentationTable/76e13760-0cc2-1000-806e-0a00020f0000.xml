@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m76e13760-0cc2-1000-806e-0a00020f0000" name="Time" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/76db9210-0cc2-1000-806e-0a00020f0000.xml#m76db9210-0cc2-1000-806e-0a00020f0000">
+<PresentationColumn mdsid="m76ff46b9-0cc2-1000-806e-0a00020f0000" name="Per name year" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8ec0-0cc2-1000-806e-0a00020f0000.xml#m763e8ef2-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m76ff46b1-0cc2-1000-806e-0a00020f0000" name="Per name half" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8ec0-0cc2-1000-806e-0a00020f0000.xml#m763e8eee-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m76ff46b5-0cc2-1000-806e-0a00020f0000" name="Per name qtr" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8ec0-0cc2-1000-806e-0a00020f0000.xml#m763e8ef0-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m76ff46b3-0cc2-1000-806e-0a00020f0000" name="Per name month" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8ec0-0cc2-1000-806e-0a00020f0000.xml#m763e8eef-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m76ff46b7-0cc2-1000-806e-0a00020f0000" name="Per name week" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8ec0-0cc2-1000-806e-0a00020f0000.xml#m763e8ef1-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m76ff1fa0-0cc2-1000-806e-0a00020f0000" name="Calendar date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8ec0-0cc2-1000-806e-0a00020f0000.xml#m763e8ed0-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+</PresentationTable>

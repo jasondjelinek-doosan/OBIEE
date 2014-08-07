@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m76e9c2e0-0cc2-1000-806e-0a00020f0000" name="Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/76db9210-0cc2-1000-806e-0a00020f0000.xml#m76db9210-0cc2-1000-806e-0a00020f0000">
+<PresentationColumn mdsid="m770dc5a1-0cc2-1000-806e-0a00020f0000" name="Customer Number" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8f3e-0cc2-1000-806e-0a00020f0000.xml#m763e8f44-0cc2-1000-806e-0a00020f0000">
+<Alias name="Cust key"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m770dc5a3-0cc2-1000-806e-0a00020f0000" name="Customer Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763e8f3e-0cc2-1000-806e-0a00020f0000.xml#m763e8f4b-0cc2-1000-806e-0a00020f0000">
+<Alias name="Name"/>
+</PresentationColumn>
+</PresentationTable>

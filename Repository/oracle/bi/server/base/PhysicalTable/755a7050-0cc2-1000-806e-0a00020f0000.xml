@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m755a7050-0cc2-1000-806e-0a00020f0000" name="SAMP_REVENUE_F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="71000.0" lastUpdated="2014-06-16 08:41:14" maxConn="0" containerRef="/oracle/bi/server/base/Schema/7553e0a2-0cc2-1000-806e-0a00020f0000.xml#m7553e0a2-0cc2-1000-806e-0a00020f0000">
+<PhysicalColumn mdsid="m755a7051-0cc2-1000-806e-0a00020f0000" name="BILL_DAY_DT" dataType="DATETIME" rowCount="1095.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7052-0cc2-1000-806e-0a00020f0000" name="BILL_MTH_KEY" dataType="DOUBLE" precision="22" rowCount="36.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7053-0cc2-1000-806e-0a00020f0000" name="BILL_QTR_KEY" dataType="DOUBLE" precision="22" rowCount="12.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7054-0cc2-1000-806e-0a00020f0000" name="COST_FIXED" dataType="DOUBLE" precision="22" nullable="true" rowCount="1404.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7055-0cc2-1000-806e-0a00020f0000" name="COST_VARIABLE" dataType="DOUBLE" precision="22" nullable="true" rowCount="3032.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7056-0cc2-1000-806e-0a00020f0000" name="CURRENCY" dataType="VARCHAR" precision="3" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7057-0cc2-1000-806e-0a00020f0000" name="CUST_KEY" dataType="DOUBLE" precision="22" rowCount="1000.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7058-0cc2-1000-806e-0a00020f0000" name="DISCNT_RATE" dataType="DOUBLE" precision="22" nullable="true" rowCount="10.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7059-0cc2-1000-806e-0a00020f0000" name="DISCNT_VALUE" dataType="DOUBLE" precision="22" nullable="true" rowCount="378.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a705a-0cc2-1000-806e-0a00020f0000" name="EMPL_KEY" dataType="DOUBLE" precision="22" rowCount="24.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a705b-0cc2-1000-806e-0a00020f0000" name="OFFICE_KEY" dataType="DOUBLE" precision="22" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a705c-0cc2-1000-806e-0a00020f0000" name="ORDER_DAY_DT" dataType="DATETIME" precision="22" rowCount="1102.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a705d-0cc2-1000-806e-0a00020f0000" name="ORDER_KEY" dataType="DOUBLE" precision="22" rowCount="71000.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a705e-0cc2-1000-806e-0a00020f0000" name="ORDER_NUMBER" dataType="DOUBLE" precision="22" rowCount="19993.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a705f-0cc2-1000-806e-0a00020f0000" name="ORDER_STATUS" dataType="VARCHAR" precision="20" rowCount="7.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7060-0cc2-1000-806e-0a00020f0000" name="ORDER_TYPE" dataType="VARCHAR" precision="20" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7061-0cc2-1000-806e-0a00020f0000" name="PAID_DAY_DT" dataType="DATETIME" precision="20" rowCount="1113.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7062-0cc2-1000-806e-0a00020f0000" name="PROD_KEY" dataType="DOUBLE" precision="22" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7063-0cc2-1000-806e-0a00020f0000" name="REVENUE" dataType="DOUBLE" precision="22" nullable="true" rowCount="58812.0" lastUpdated="2014-06-16 08:41:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7064-0cc2-1000-806e-0a00020f0000" name="SHIPTO_ADDR_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="1865.0" lastUpdated="2014-06-16 08:41:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7065-0cc2-1000-806e-0a00020f0000" name="SHIP_DAY_DT" dataType="DATETIME" precision="22" rowCount="1098.0" lastUpdated="2014-06-16 08:41:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7066-0cc2-1000-806e-0a00020f0000" name="SRC_ORDER_NUMBER" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" lastUpdated="2014-06-16 08:41:16" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m755a7067-0cc2-1000-806e-0a00020f0000" name="UNITS" dataType="DOUBLE" precision="22" nullable="true" rowCount="646.0" lastUpdated="2014-06-16 08:41:16" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

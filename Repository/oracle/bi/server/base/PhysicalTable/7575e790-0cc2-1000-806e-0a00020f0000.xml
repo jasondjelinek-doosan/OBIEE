@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m7575e790-0cc2-1000-806e-0a00020f0000" name="D1 Time" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="2404.0" lastUpdated="2014-06-16 08:41:14" maxConn="0" containerRef="/oracle/bi/server/base/Schema/7553e0a2-0cc2-1000-806e-0a00020f0000.xml#m7553e0a2-0cc2-1000-806e-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a0-0cc2-1000-806e-0a00020f0000">
+<Description><![CDATA[Time Dimension Alias at day grain.  Stores one record for each day]]></Description>
+<PhysicalColumn mdsid="m7575e791-0cc2-1000-806e-0a00020f0000" name="BEG_OF_MTH_WID" dataType="DOUBLE" precision="22" nullable="true" rowCount="79.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a1-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e792-0cc2-1000-806e-0a00020f0000" name="BEG_OF_QTR_WID" dataType="DOUBLE" precision="22" nullable="true" rowCount="27.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a2-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e793-0cc2-1000-806e-0a00020f0000" name="BEG_OF_WEEK_WID" dataType="DOUBLE" precision="22" nullable="true" rowCount="344.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a3-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e794-0cc2-1000-806e-0a00020f0000" name="CALENDAR_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="2404.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a4-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e795-0cc2-1000-806e-0a00020f0000" name="CAL_HALF" dataType="DOUBLE" precision="22" nullable="true" rowCount="2.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a5-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e796-0cc2-1000-806e-0a00020f0000" name="CAL_HALF_YEAR_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="14.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a6-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e797-0cc2-1000-806e-0a00020f0000" name="CAL_MONTH" dataType="DOUBLE" precision="22" nullable="true" rowCount="12.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a7-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e798-0cc2-1000-806e-0a00020f0000" name="CAL_MONTH_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="79.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a8-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e799-0cc2-1000-806e-0a00020f0000" name="CAL_QTR" dataType="DOUBLE" precision="22" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33a9-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e79a-0cc2-1000-806e-0a00020f0000" name="CAL_QTR_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="27.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33aa-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e79b-0cc2-1000-806e-0a00020f0000" name="CAL_WEEK" dataType="DOUBLE" precision="22" nullable="true" rowCount="53.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ab-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e79c-0cc2-1000-806e-0a00020f0000" name="CAL_WEEK_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="344.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ac-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e79d-0cc2-1000-806e-0a00020f0000" name="CAL_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="8.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ad-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e79e-0cc2-1000-806e-0a00020f0000" name="CAL_YEAR_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="8.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ae-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e79f-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_FSCL_HALF_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33af-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a0-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_FSCL_MONTH" dataType="DOUBLE" precision="22" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b0-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a1-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_FSCL_QTR" dataType="DOUBLE" precision="22" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b1-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a2-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_FSCL_WEEK" dataType="DOUBLE" precision="22" nullable="true" rowCount="1.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b2-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a3-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_FSCL_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="2.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b3-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a4-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_HALF_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b4-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a5-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_MTH" dataType="DOUBLE" precision="22" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b5-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a6-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_QTR" dataType="DOUBLE" precision="22" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b6-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a7-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_WEEK" dataType="DOUBLE" precision="22" nullable="true" rowCount="1.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b7-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a8-0cc2-1000-806e-0a00020f0000" name="DAYS_IN_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="2.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b8-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7a9-0cc2-1000-806e-0a00020f0000" name="DAY_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="2404.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33b9-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7aa-0cc2-1000-806e-0a00020f0000" name="DAY_OF_MONTH" dataType="DOUBLE" precision="22" nullable="true" rowCount="31.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ba-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7ab-0cc2-1000-806e-0a00020f0000" name="DAY_OF_WEEK" dataType="DOUBLE" precision="22" nullable="true" rowCount="7.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33bb-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7ac-0cc2-1000-806e-0a00020f0000" name="DAY_OF_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="366.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33bc-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7ad-0cc2-1000-806e-0a00020f0000" name="FSCL_HALF" dataType="DOUBLE" precision="22" nullable="true" rowCount="2.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33bd-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7ae-0cc2-1000-806e-0a00020f0000" name="FSCL_MONTH" dataType="DOUBLE" precision="22" nullable="true" rowCount="12.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33be-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7af-0cc2-1000-806e-0a00020f0000" name="FSCL_MONTH_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="79.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33bf-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b0-0cc2-1000-806e-0a00020f0000" name="FSCL_QTR" dataType="DOUBLE" precision="22" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c0-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b1-0cc2-1000-806e-0a00020f0000" name="FSCL_QTR_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="27.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c1-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b2-0cc2-1000-806e-0a00020f0000" name="FSCL_WEEK" dataType="DOUBLE" precision="22" nullable="true" rowCount="53.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c2-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b3-0cc2-1000-806e-0a00020f0000" name="FSCL_WEEK_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="344.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c3-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b4-0cc2-1000-806e-0a00020f0000" name="FSCL_YEAR" dataType="DOUBLE" precision="22" nullable="true" rowCount="8.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c4-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b5-0cc2-1000-806e-0a00020f0000" name="FSCL_YEAR_END_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="8.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c5-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b6-0cc2-1000-806e-0a00020f0000" name="HOLIDAY" dataType="DOUBLE" precision="22" nullable="true" rowCount="2.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c6-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b7-0cc2-1000-806e-0a00020f0000" name="JULIAN_DAY_NUM" dataType="DOUBLE" precision="22" nullable="true" rowCount="2404.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c7-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b8-0cc2-1000-806e-0a00020f0000" name="JULIAN_MONTH_NUM" dataType="DOUBLE" precision="22" nullable="true" rowCount="80.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c8-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7b9-0cc2-1000-806e-0a00020f0000" name="JULIAN_QTR_NUM" dataType="DOUBLE" precision="22" nullable="true" rowCount="27.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33c9-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7ba-0cc2-1000-806e-0a00020f0000" name="JULIAN_WEEK_NUM" dataType="DOUBLE" precision="22" nullable="true" rowCount="345.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ca-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7bb-0cc2-1000-806e-0a00020f0000" name="LOADED" dataType="DOUBLE" precision="22" nullable="true" rowCount="1.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33cb-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7bc-0cc2-1000-806e-0a00020f0000" name="PER_NAME_HALF" dataType="VARCHAR" precision="255" nullable="true" rowCount="14.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33cc-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7bd-0cc2-1000-806e-0a00020f0000" name="PER_NAME_MONTH" dataType="VARCHAR" precision="255" nullable="true" rowCount="79.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33cd-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7be-0cc2-1000-806e-0a00020f0000" name="PER_NAME_QTR" dataType="VARCHAR" precision="255" nullable="true" rowCount="27.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33ce-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7bf-0cc2-1000-806e-0a00020f0000" name="PER_NAME_WEEK" dataType="VARCHAR" precision="255" nullable="true" rowCount="350.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33cf-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7575e7c0-0cc2-1000-806e-0a00020f0000" name="PER_NAME_YEAR" dataType="VARCHAR" precision="255" nullable="true" rowCount="8.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755b33a0-0cc2-1000-806e-0a00020f0000.xml#m755b33d0-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m75d65710-0cc2-1000-806e-0a00020f0000" name="D1 Time_Key">
+<RefColumns>
+<RefColumn refId="m75d65710-0cc2-1000-806e-0a00020f0000-m7575e794-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/7575e790-0cc2-1000-806e-0a00020f0000.xml#m7575e794-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m76ec33e0-0cc2-1000-806e-0a00020f0000" name="Base Facts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/76db9210-0cc2-1000-806e-0a00020f0000.xml#m76db9210-0cc2-1000-806e-0a00020f0000">
+<PresentationColumn mdsid="m770b0681-0cc2-1000-806e-0a00020f0000" name="Revenue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5225-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m770b0683-0cc2-1000-806e-0a00020f0000" name="Units" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/763f5210-0cc2-1000-806e-0a00020f0000.xml#m763f5229-0cc2-1000-806e-0a00020f0000">
+</PresentationColumn>
+</PresentationTable>

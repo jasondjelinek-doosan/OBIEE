@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m75a4bfc0-0cc2-1000-806e-0a00020f0000" name="F1 Revenue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="71000.0" lastUpdated="2014-06-16 08:41:14" maxConn="0" containerRef="/oracle/bi/server/base/Schema/7553e0a2-0cc2-1000-806e-0a00020f0000.xml#m7553e0a2-0cc2-1000-806e-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7050-0cc2-1000-806e-0a00020f0000">
+<PhysicalColumn mdsid="m75a4bfc1-0cc2-1000-806e-0a00020f0000" name="BILL_DAY_DT" dataType="DATETIME" rowCount="1095.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7051-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc2-0cc2-1000-806e-0a00020f0000" name="BILL_MTH_KEY" dataType="DOUBLE" precision="22" rowCount="36.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7052-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc3-0cc2-1000-806e-0a00020f0000" name="BILL_QTR_KEY" dataType="DOUBLE" precision="22" rowCount="12.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7053-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc4-0cc2-1000-806e-0a00020f0000" name="COST_FIXED" dataType="DOUBLE" precision="22" nullable="true" rowCount="1404.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7054-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc5-0cc2-1000-806e-0a00020f0000" name="COST_VARIABLE" dataType="DOUBLE" precision="22" nullable="true" rowCount="3032.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7055-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc6-0cc2-1000-806e-0a00020f0000" name="CURRENCY" dataType="VARCHAR" precision="3" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7056-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc7-0cc2-1000-806e-0a00020f0000" name="CUST_KEY" dataType="DOUBLE" precision="22" rowCount="1000.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7057-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc8-0cc2-1000-806e-0a00020f0000" name="DISCNT_RATE" dataType="DOUBLE" precision="22" nullable="true" rowCount="10.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7058-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfc9-0cc2-1000-806e-0a00020f0000" name="DISCNT_VALUE" dataType="DOUBLE" precision="22" nullable="true" rowCount="378.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7059-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfca-0cc2-1000-806e-0a00020f0000" name="EMPL_KEY" dataType="DOUBLE" precision="22" rowCount="24.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a705a-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfcb-0cc2-1000-806e-0a00020f0000" name="OFFICE_KEY" dataType="DOUBLE" precision="22" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a705b-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfcc-0cc2-1000-806e-0a00020f0000" name="ORDER_DAY_DT" dataType="DATETIME" precision="22" rowCount="1102.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a705c-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfcd-0cc2-1000-806e-0a00020f0000" name="ORDER_KEY" dataType="DOUBLE" precision="22" rowCount="71000.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a705d-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfce-0cc2-1000-806e-0a00020f0000" name="ORDER_NUMBER" dataType="DOUBLE" precision="22" rowCount="19993.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a705e-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfcf-0cc2-1000-806e-0a00020f0000" name="ORDER_STATUS" dataType="VARCHAR" precision="20" rowCount="7.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a705f-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd0-0cc2-1000-806e-0a00020f0000" name="ORDER_TYPE" dataType="VARCHAR" precision="20" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7060-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd1-0cc2-1000-806e-0a00020f0000" name="PAID_DAY_DT" dataType="DATETIME" precision="20" rowCount="1113.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7061-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd2-0cc2-1000-806e-0a00020f0000" name="PROD_KEY" dataType="DOUBLE" precision="22" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7062-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd3-0cc2-1000-806e-0a00020f0000" name="REVENUE" dataType="DOUBLE" precision="22" nullable="true" rowCount="58812.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7063-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd4-0cc2-1000-806e-0a00020f0000" name="SHIPTO_ADDR_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="1865.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7064-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd5-0cc2-1000-806e-0a00020f0000" name="SHIP_DAY_DT" dataType="DATETIME" precision="22" rowCount="1098.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7065-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd6-0cc2-1000-806e-0a00020f0000" name="SRC_ORDER_NUMBER" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7066-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a4bfd7-0cc2-1000-806e-0a00020f0000" name="UNITS" dataType="DOUBLE" precision="22" nullable="true" rowCount="646.0" lastUpdated="2014-06-16 08:41:16" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/755a7050-0cc2-1000-806e-0a00020f0000.xml#m755a7067-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m75dee290-0cc2-1000-806e-0a00020f0000" name="F1 Revenue_Key">
+<RefColumns>
+<RefColumn refId="m75dee290-0cc2-1000-806e-0a00020f0000-m75a4bfd2-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfd2-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalKey mdsid="m75e2da30-0cc2-1000-806e-0a00020f0000" name="F1 Revenue_Key#1">
+<RefColumns>
+<RefColumn refId="m75e2da30-0cc2-1000-806e-0a00020f0000-m75a4bfc7-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfc7-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m75cc6c00-0cc2-1000-806e-0a00020f0000" name="F1 Revenue_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/7575e790-0cc2-1000-806e-0a00020f0000.xml#m75d65710-0cc2-1000-806e-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m75cc6c00-0cc2-1000-806e-0a00020f0000-m75a4bfc1-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfc1-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m75facf00-0cc2-1000-806e-0a00020f0000" name="F1 Revenue_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m7603a8a0-0cc2-1000-806e-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m75facf00-0cc2-1000-806e-0a00020f0000-m75a4bfd2-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfd2-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m76099c10-0cc2-1000-806e-0a00020f0000" name="F1 Revenue_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/7598b1d0-0cc2-1000-806e-0a00020f0000.xml#m760c5b30-0cc2-1000-806e-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m76099c10-0cc2-1000-806e-0a00020f0000-m75a4bfc7-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/75a4bfc0-0cc2-1000-806e-0a00020f0000.xml#m75a4bfc7-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

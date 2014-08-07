@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m75a07a00-0cc2-1000-806e-0a00020f0000" name="D2 Product" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="20.0" lastUpdated="2014-06-16 08:41:14" maxConn="0" containerRef="/oracle/bi/server/base/Schema/7553e0a2-0cc2-1000-806e-0a00020f0000.xml#m7553e0a2-0cc2-1000-806e-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b0-0cc2-1000-806e-0a00020f0000">
+<PhysicalColumn mdsid="m75a07a01-0cc2-1000-806e-0a00020f0000" name="ATTRIBUTE_1" dataType="VARCHAR" precision="255" nullable="true" rowCount="11.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b1-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a02-0cc2-1000-806e-0a00020f0000" name="ATTRIBUTE_2" dataType="VARCHAR" precision="255" nullable="true" rowCount="8.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b2-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a03-0cc2-1000-806e-0a00020f0000" name="BRAND" dataType="VARCHAR" precision="255" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b3-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a04-0cc2-1000-806e-0a00020f0000" name="BRAND_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="3.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b4-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a05-0cc2-1000-806e-0a00020f0000" name="LOB" dataType="VARCHAR" precision="255" nullable="true" rowCount="6.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b5-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a06-0cc2-1000-806e-0a00020f0000" name="LOB_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="6.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b6-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a07-0cc2-1000-806e-0a00020f0000" name="PROD_DSC" dataType="VARCHAR" precision="255" nullable="true" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b7-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a08-0cc2-1000-806e-0a00020f0000" name="PROD_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b8-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a09-0cc2-1000-806e-0a00020f0000" name="SEQUENCE" dataType="DOUBLE" precision="22" nullable="true" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9b9-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a0a-0cc2-1000-806e-0a00020f0000" name="TYPE" dataType="VARCHAR" precision="255" nullable="true" rowCount="11.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9ba-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m75a07a0b-0cc2-1000-806e-0a00020f0000" name="TYPE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="11.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7558e9b0-0cc2-1000-806e-0a00020f0000.xml#m7558e9bb-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m7603a8a0-0cc2-1000-806e-0a00020f0000" name="D2 Product_Key">
+<RefColumns>
+<RefColumn refId="m7603a8a0-0cc2-1000-806e-0a00020f0000-m75a07a08-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/75a07a00-0cc2-1000-806e-0a00020f0000.xml#m75a07a08-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

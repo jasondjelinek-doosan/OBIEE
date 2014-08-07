@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m7598b1d0-0cc2-1000-806e-0a00020f0000" name="D3 Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="1000.0" lastUpdated="2014-06-16 08:41:14" maxConn="0" containerRef="/oracle/bi/server/base/Schema/7553e0a2-0cc2-1000-806e-0a00020f0000.xml#m7553e0a2-0cc2-1000-806e-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b560-0cc2-1000-806e-0a00020f0000">
+<PhysicalColumn mdsid="m7598b1d1-0cc2-1000-806e-0a00020f0000" name="ADDRESS_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="1000.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b561-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d2-0cc2-1000-806e-0a00020f0000" name="BIRTH_DT" dataType="DATETIME" precision="22" nullable="true" rowCount="607.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b562-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d3-0cc2-1000-806e-0a00020f0000" name="CRDT_RATE" dataType="DOUBLE" precision="22" nullable="true" rowCount="20.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b563-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d4-0cc2-1000-806e-0a00020f0000" name="CUST_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="1000.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b564-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d5-0cc2-1000-806e-0a00020f0000" name="FST_CONTACT_DT" dataType="DATETIME" precision="22" nullable="true" rowCount="656.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b565-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d6-0cc2-1000-806e-0a00020f0000" name="GENDER" dataType="VARCHAR" precision="20" nullable="true" rowCount="2.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b566-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d7-0cc2-1000-806e-0a00020f0000" name="INCOME_LVL" dataType="VARCHAR" precision="255" nullable="true" rowCount="9.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b567-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d8-0cc2-1000-806e-0a00020f0000" name="LST_ORDER_DT" dataType="DATETIME" precision="255" nullable="true" rowCount="220.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b568-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1d9-0cc2-1000-806e-0a00020f0000" name="LTV" dataType="DOUBLE" precision="22" nullable="true" rowCount="965.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b569-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1da-0cc2-1000-806e-0a00020f0000" name="MARITAL_ST" dataType="VARCHAR" precision="20" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b56a-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1db-0cc2-1000-806e-0a00020f0000" name="NAME" dataType="VARCHAR" precision="255" nullable="true" rowCount="1000.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b56b-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1dc-0cc2-1000-806e-0a00020f0000" name="NUM_ATTRIBUTE" dataType="DOUBLE" precision="22" nullable="true" rowCount="100.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b56c-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1dd-0cc2-1000-806e-0a00020f0000" name="PREV_MARITAL_ST" dataType="VARCHAR" precision="20" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b56d-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1de-0cc2-1000-806e-0a00020f0000" name="PREV_MARITAL_ST_DT" dataType="DATETIME" precision="20" nullable="true" rowCount="526.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b56e-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1df-0cc2-1000-806e-0a00020f0000" name="SEGMENT_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="7.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b56f-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1e0-0cc2-1000-806e-0a00020f0000" name="STATUS_KEY" dataType="VARCHAR" precision="255" nullable="true" rowCount="4.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b570-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m7598b1e1-0cc2-1000-806e-0a00020f0000" name="TYPE_KEY" dataType="VARCHAR" precision="255" nullable="true" rowCount="5.0" lastUpdated="2014-06-16 08:41:15" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/7555b560-0cc2-1000-806e-0a00020f0000.xml#m7555b571-0cc2-1000-806e-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m75e57240-0cc2-1000-806e-0a00020f0000" name="D3 Customer_Key">
+<RefColumns>
+<RefColumn refId="m75e57240-0cc2-1000-806e-0a00020f0000-m7598b1d1-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/7598b1d0-0cc2-1000-806e-0a00020f0000.xml#m7598b1d1-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalKey mdsid="m760c5b30-0cc2-1000-806e-0a00020f0000" name="D3 Customer_Key#1">
+<RefColumns>
+<RefColumn refId="m760c5b30-0cc2-1000-806e-0a00020f0000-m7598b1d4-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/7598b1d0-0cc2-1000-806e-0a00020f0000.xml#m7598b1d4-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m760cd060-0cc2-1000-806e-0a00020f0000" name="D3 Customer_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/759667e0-0cc2-1000-806e-0a00020f0000.xml#m760de1d0-0cc2-1000-806e-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m760cd060-0cc2-1000-806e-0a00020f0000-m7598b1d1-0cc2-1000-806e-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/7598b1d0-0cc2-1000-806e-0a00020f0000.xml#m7598b1d1-0cc2-1000-806e-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>
